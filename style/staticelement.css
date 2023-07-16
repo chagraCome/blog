@@ -1,0 +1,58 @@
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: whitesmoke;
+    margin: auto;
+  
+  }
+  p{
+      font-size: 16px;
+  }
+  a{
+      text-decoration: none;
+      color: #06c6bf;
+  }
+  q{
+      font-size:small;
+  }
+.nav-containet{
+    backdrop-filter: blur(10px);
+    background-color: rgba(225, 237, 231, 0.23);
+}
+nav {
+  
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+ justify-content: space-between;
+
+}
+.nav_logo{
+    display: flex;
+    padding-left: 30px;
+}
+.nav_menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-right: 30px;
+}
+.listit {
+display: flex;
+  font-size: large;
+  list-style: none;
+
+}
+.listit li{
+    margin:10px
+}
+
+.footer-container{
+    margin: 30px;
+}
+.circle{
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+}
